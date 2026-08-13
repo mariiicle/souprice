@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WABI &amp; HABI: 2 Year Quest Log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanlines"></div>
+<div class="top-controls">
+  <button id="sound-toggle" aria-pressed="true">🔊 SFX</button>
+  <button id="music-toggle" aria-pressed="true">🎵 MUSIC</button>
+</div>
+
+<!-- TITLE SCREEN -->
+<section id="title-screen">
+  <div class="seal-crest" aria-hidden="true">♥</div>
+  <div class="title-logo pixel-font">HABI <span class="amp">&amp;</span><br>WABI</div>
+  <div class="title-sub">— A 2 YEAR QUEST LOG —</div>
+  <p class="title-meta">tropa time, conventions, park benches, and everything in between. loading our story...</p>
+  <button id="start-btn">▶ PRESS START</button>
+  <p class="press-hint">tap the button, Habi</p>
+</section>
+
+<!-- MAP SCREEN -->
+<section id="map-screen" class="hidden">
+  <div class="map-header">
+    <h1 class="pixel-font">THE OVERWORLD MAP</h1>
+    <p>pick a level. every one really happened.</p>
+  </div>
+  <div class="path-wrap" id="path-wrap">
+    <!-- nodes injected by JS -->
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="modal-overlay" class="hidden">
+  <div id="modal-box">
+    <button id="modal-close">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
