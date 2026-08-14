@@ -280,7 +280,7 @@
       inner += '<span class="stamp pixel-font">GAME COMPLETE</span>';
       inner += '<h2 class="pixel-font">' + lv.title + '</h2>';
       inner += photoPlaceholder('OUR NEXT PHOTO');
-      inner += '<p class="final-msg">Two years down. Every level on this map actually happened — and I wouldn\'t want to have played any of it with anyone else.<br><br>Here\'s to the levels we haven\'t unlocked yet.<br><br>Happy 2nd anniversary, Habi. I love you.</p>';
+      inner += '<p class="final-msg">Two years down. Every level on this map actually happened, and I wouldn\'t want to have played any of it with anyone else.<br><br>Here\'s to the levels we haven\'t unlocked yet.<br><br>Happy 2nd anniversary, Habi! Alabyuu bewii matchii 🥰.</p>';
       inner += '<div class="final-sign">— Wabi 💛</div>';
       launchConfetti();
     } else {
