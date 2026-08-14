@@ -437,10 +437,13 @@
 
   @media (max-width:420px){
     #modal-overlay{ padding:8px; }
-    #modal-box{ padding:20px 14px; }
-    .carousel{ gap:4px; }
-    .car-btn{ padding:10px 6px; font-size:11px; }
-    .track-single{ padding:14px 8px; }
+    #modal-box{ padding:20px 12px; }
+    .carousel{ flex-wrap:wrap; gap:8px; }
+    .carousel .cart-single{ order:1; flex-basis:100%; }
+    .carousel #movie-prev, .carousel #track-prev{ order:2; }
+    .carousel #movie-next, .carousel #track-next{ order:3; }
+    .car-btn{ padding:8px 20px; font-size:12px; }
+    .track-single{ padding:14px 10px; }
   }
   #modal-close{
     position:absolute;
