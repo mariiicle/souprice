@@ -149,12 +149,12 @@
     {
       title:'Enchanted', artist:'Taylor Swift',
       note:"Played during our Spotify Jam, completely at random. My delulu meter hit max! I was so sure you picked it on purpose!",
-      embed:'<iframe src="https://open.spotify.com/embed/track/10eBRyImhfqVvkiVEGf0N0?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      embed:'<iframe src="https://open.spotify.com/embed/track/10eBRyImhfqVvkiVEGf0N0?utm_source=generator" width="100%" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
     },
     {
       title:'Mr. Sun', artist:'Over October',
       note:"As long as I'm with you, the world doesn't feel as overwhelming. This song just calms my mind whenever I think of you.",
-      embed:'<iframe src="https://open.spotify.com/embed/track/5IlUtxVIGi0d2g3Ewcid2M?utm_source=generator" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      embed:'<iframe src="https://open.spotify.com/embed/track/5IlUtxVIGi0d2g3Ewcid2M?utm_source=generator" width="100%" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
     },
     {
       title:'Meaningful Silence (Our Song)', artist:'The Ridleys',
