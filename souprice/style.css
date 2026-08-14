@@ -434,6 +434,11 @@
     color:var(--ink);
   }
   #modal-box::-webkit-scrollbar{ display:none; width:0; height:0; }
+
+  @media (max-width:420px){
+    #modal-overlay{ padding:8px; }
+    #modal-box{ padding:20px 14px; }
+  }
   #modal-close{
     position:absolute;
     top:12px; right:12px;
@@ -618,7 +623,7 @@
   .track-single .t-title{ font-family:'EB Garamond', serif; font-weight:600; font-size:18px; color:var(--burgundy); line-height:1.2; }
   .track-single .t-artist{ font-family:'EB Garamond', serif; font-style:italic; font-size:14px; color:#6b5836; margin-bottom:4px; }
   .track-single .t-note{ font-family:'EB Garamond', serif; font-size:15px; color:var(--ink); line-height:1.3; margin-bottom:10px; }
-  .track-single .track-audio{ width:100%; }
+  .track-single .track-audio{ width:100%; overflow:hidden; }
   .track-single .track-audio iframe{ width:100%; border:none; display:block; border-radius:3px; }
 
   @keyframes spin{ from{ transform:rotate(0deg);} to{ transform:rotate(360deg);} }
